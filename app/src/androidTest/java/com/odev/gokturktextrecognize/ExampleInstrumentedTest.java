@@ -1,4 +1,4 @@
-package com.ahmety.gokturktextrecognize;
+package com.odev.gokturktextrecognize;
 
 import android.content.Context;
 

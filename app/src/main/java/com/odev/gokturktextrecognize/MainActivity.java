@@ -1,4 +1,4 @@
-package com.ahmety.gokturktextrecognize;
+package com.odev.gokturktextrecognize;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.res.ResourcesCompat;
@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
             message = message.replaceAll("3",getString(R.string.letterTwentySixth));
 
+          //  message = message.replaceAll("o",getString(R.string.letterThirtySeventh));
 
             String filename = getIntent().getStringExtra("image");
             try {
@@ -74,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            bmpfromSecond = rotateImage(bmpfromSecond,90);
+            bmpfromSecond = rotateImage(bmpfromSecond,90); // bitmap'i 90 derece döndürmek için
             mImageView.setImageBitmap(bmpfromSecond);
         }
     }

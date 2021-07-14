@@ -1,4 +1,4 @@
-package com.ahmety.gokturktextrecognize;
+package com.odev.gokturktextrecognize;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -30,7 +30,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import static com.ahmety.gokturktextrecognize.MainActivity.rotateImage;
+import static com.odev.gokturktextrecognize.MainActivity.rotateImage;
 
 public class ActivitySecond extends AppCompatActivity {
     SurfaceView cameraView;
@@ -81,7 +81,7 @@ public class ActivitySecond extends AppCompatActivity {
                     .setFacing(CameraSource.CAMERA_FACING_BACK)
                     .setRequestedPreviewSize(1280, 1024)
                     .setRequestedFps(3500.0f)
-                    .setAutoFocusEnabled(false)
+                    .setAutoFocusEnabled(true)
                     .build();
 
             // 2
@@ -106,6 +106,7 @@ public class ActivitySecond extends AppCompatActivity {
 
                 @Override
                 public void surfaceDestroyed(SurfaceHolder holder) {
+
                     cameraSource.stop();
                 }
             });
@@ -126,7 +127,7 @@ public class ActivitySecond extends AppCompatActivity {
                             @Override
                             public void run() {
                                 StringBuilder stringBuilder = new StringBuilder();
-                                for (int i = 0 ;i < items.size();i++){
+                                for (int i = 0; i < items.size();i++){
                                     TextBlock item = items.valueAt(i);
                                     stringBuilder.append(item.getValue());
                                     stringBuilder.append("\n");
