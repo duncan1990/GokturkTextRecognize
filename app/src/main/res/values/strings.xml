@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">GokturkTextRecognize</string>
+    <string name="text_ok">Tamam</string>
+    <string name="text_cancel">Tekrar Çek</string>
+    <string name="letterZero">𐰀</string>
+    <string name="letterFirst">𐰃</string>
+    <string name="letterSecond">𐰆</string>
+    <string name="letterThird">𐰇</string>
+    <string name="letterFourth">𐰉</string>
+    <string name="letterFifth">𐰋</string>
+    <string name="letterSixth">𐰑</string>
+    <string name="letterSeventh">𐰓</string>
+    <string name="letterEighth">𐰍</string>
+    <string name="letterNineth">𐰏</string>
+    <string name="letterTenth">𐰴</string>
+    <string name="letterEleventh">𐰚</string>
+    <string name="letterTwelfth">𐰞</string>
+    <string name="letterThirteenth">𐰠</string>
+    <string name="letterFourteenth">𐰣</string>
+    <string name="letterFifteenth">𐰤</string>
+    <string name="letterSixteenth">𐰺</string>
+    <string name="letterSeventeenth">𐰼</string>
+    <string name="letterEighteenth">𐰽</string>
+    <string name="letterNineteenth">𐰾</string>
+    <string name="letterTwentieth">𐱃</string>
+    <string name="letterTwentyFirst">𐱅</string>
+    <string name="letterTwentySecond">𐰖</string>
+    <string name="letterTwentyThird">𐰘</string>
+    <string name="letterTwentyFourth">𐰲</string>
+    <string name="letterTwentyFifth">𐰢</string>
+    <string name="letterTwentySixth">𐰭</string>
+    <string name="letterTwentySeventh">𐰪</string>
+    <string name="letterTwentyEighth">𐰯</string>
+    <string name="letterTwentyNinth">𐱁</string>
+    <string name="letterThirtieth">𐰔</string>
+    <string name="letterThirtyFirst">𐰸</string>
+    <string name="letterThirtySecond">𐰜</string>
+    <string name="letterThirtyThird">𐰶</string>
+    <string name="letterThirtyFourth">𐰱</string>
+    <string name="letterThirtyFifth">𐰡</string>
+    <string name="letterThirtySixth">𐰨</string>
+    <string name="letterThirtySeventh">𐰦</string>
+</resources>
+
